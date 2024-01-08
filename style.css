@@ -42,7 +42,7 @@ ul {
   padding: 0px;
 }
 li,
-h3 {
+h2 {
   list-style: none;
 }
 input,
@@ -64,6 +64,9 @@ button{
 .list-item__edit-button:hover,
 .list-item__delete-button:hover {
   color: #3a3a3a;
+}
+.app-name {
+  display: none;
 }
 /* Heading */
 .add-item__label,
