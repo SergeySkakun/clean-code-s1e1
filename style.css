@@ -31,7 +31,7 @@
 .list-item__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-item {
   display: flex;
@@ -124,7 +124,7 @@ input,button{
   width: 226px;
 }
 .list-item__task {
-  width: 226px
+  width: 226px;
 }
 .list-item__delete-svg {
   height: 2em;
@@ -137,18 +137,18 @@ input,button{
 
 /* Completed */
 #completed-tasks .list-item__title {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list-item__task {
-  display: none
+  display: none;
 }
 
 .list-item_edit-mode .list-item__task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list-item_edit-mode .list-item__title {
